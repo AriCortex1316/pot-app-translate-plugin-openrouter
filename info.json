@@ -1,0 +1,62 @@
+{
+  "id": "plugin.com.pot-app.openrouter_translate",
+  "plugin_type": "translate",
+  "display": "OpenRouter-translate",
+  "icon": "icon.png",
+  "version": "1.0.0",
+  "description": "Use OpenRouter Vision models for Translate",
+  "homepage": "https://github.com/AriCortex1316/pot-app-translate-plugin-openrouter",
+  "needs": [
+    {
+        "key": "apikey",
+        "display": "API Key",
+        "type": "input",
+        "placeholder": "sk-or-..."
+    },
+    {
+        "key": "apiurl",
+        "display": "API url",
+        "type": "input",
+        "default": "https://openrouter.ai/api/v1/chat/completions"
+    },
+    {
+        "key": "model",
+        "display": "Model",
+        "type": "input",
+        "default": "google/gemma-3-27b-it"
+    }
+  ],
+  "language": {
+    "auto": "Auto",
+    "zh_cn": "Simplified Chinese",
+    "zh_tw": "Traditional Chinese",
+    "yue": "Cantonese",
+    "ja": "Japanese",
+    "en": "English",
+    "ko": "Korean",
+    "fr": "French",
+    "es": "Spanish",
+    "ru": "Russian",
+    "de": "German",
+    "it": "Italian",
+    "tr": "Turkish",
+    "pt_pt": "Portuguese",
+    "pt_br": "Brazilian Portuguese",
+    "vi": "Vietnamese",
+    "id": "Indonesian",
+    "th": "Thai",
+    "ms": "Malay",
+    "ar": "Arabic",
+    "hi": "Hindi",
+    "mn_mo": "Mongolian",
+    "mn_cy": "Mongolian(Cyrillic)",
+    "km": "Khmer",
+    "nb_no": "Norwegian Bokmål",
+    "nn_no": "Norwegian Nynorsk",
+    "fa": "Persian",
+    "sv": "Swedish",
+    "pl": "Polish",
+    "nl": "Dutch",
+    "uk": "Ukrainian"
+  }
+}
