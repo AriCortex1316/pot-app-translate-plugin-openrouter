@@ -1,0 +1,1 @@
+## Pot-App OpenRouter 文字翻译识别插件
